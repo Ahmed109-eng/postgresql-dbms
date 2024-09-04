@@ -1,6 +1,6 @@
 import psycopg2
 
-connection = psycopg2.connect(database="chinook")
+connection = psycopg2.connect(database="Chinook")
 
 cursor = connection.cursor()
 
